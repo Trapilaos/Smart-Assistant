@@ -51,6 +51,7 @@ namespace EksipnosVoithos
             this.Name = "UserControlDays";
             this.Size = new System.Drawing.Size(161, 88);
             this.Load += new System.EventHandler(this.UserControlDays_Load);
+            this.DoubleClick += new System.EventHandler(this.UserControl_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
